@@ -1,6 +1,12 @@
 # Alpha Beta Preschool — Website
 
-Plain HTML/CSS/JS. No build step, no npm, no framework. Upload the files as-is to any web host (cPanel, Netlify drag-and-drop, GitHub Pages, etc.).
+Plain HTML/CSS/JS. No build step, no npm, no framework. Fully configured for deployment to **Vercel**, Netlify, GitHub Pages, or cPanel.
+
+## Deploying to Vercel
+1. Import this repository in [Vercel](https://vercel.com/new).
+2. Framework Preset: Leave as **Other**.
+3. Root Directory: `./` (leave default).
+4. Click **Deploy**. Everything (clean URLs, 301 redirects, caching headers, security headers) is configured in `vercel.json`.
 
 ## Files
 - `index.html` — all page content and sections
